@@ -21,6 +21,7 @@ img{
     width: 100px;
     float: left;
     margin-right: 10px;
+   
 }
 
 .row::after{
@@ -48,6 +49,7 @@ h1{
 
 .row{
     margin-bottom: 50px;
+    
 }
 
 .col{
@@ -56,6 +58,11 @@ h1{
     float: left;
     margin: 0 10px;
     width: calc( (100%/3) - 20px);
+   
+}
+
+h3{
+    padding-top: 20px;
 }
 
 
