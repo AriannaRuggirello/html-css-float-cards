@@ -33,11 +33,12 @@ img{
 
 h1{
     text-align: center; 
-    font-weight: bold;  
+    font-weight: bolder;  
     color: #E53170;
     margin-bottom: 20px;
 }
 
+/* introduzione al team */
 .intro{
     text-align: center;
     margin-bottom: 50px;
@@ -53,19 +54,9 @@ h1{
     background-color: #0F0E17;
     color: white;    
     float: left;
-    width: calc( (100%/3));   
-    
- 
+    margin: 0 10px;
+    width: calc( (100%/3) - 20px);
 }
 
-/* regole da cancellare */
-.row{
-    border: 4px solid green;
-    background-color:green;
-}
-/* 
-.col{
-    border: 1px solid yellow;
-    height:200px;
-    background-color: red;
-} */
+
+
